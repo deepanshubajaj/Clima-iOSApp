@@ -33,6 +33,16 @@ To run this project locally:
 - **OpenWeather API**: The weather data for this app is fetched from the [OpenWeather API](https://openweathermap.org/api). You can find their documentation for more details on how to use it and access various weather data endpoints.
 - **API Key Setup**: To use the OpenWeather API, you'll need an API key. You can obtain one from [here](https://openweathermap.org/appid).
 - **Current Weather Data**: You can explore the documentation for retrieving current weather data from OpenWeather [here](https://openweathermap.org/current).
+- **Project Usage**: Add your own API-Id Value by adding the file envFileClimaApp.swift in the project in the following format.
+    ```bash
+    // envFileClimaApp.swift
+
+    import Foundation
+
+    struct envFileClimaApp {
+        static let apiIdValue = "Your_Own_API_Value"
+    }
+    ```
 
 ## App Look:
 
